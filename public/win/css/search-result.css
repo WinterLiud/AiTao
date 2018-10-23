@@ -1,0 +1,14 @@
+body,
+.mui-content {
+  background-color: #fff;
+}
+.choose {
+  margin: 10px 20px;
+  font-size: 14px;
+}
+.choose .mui-col-xs-6 {
+  height: 35px;
+  line-height: 35px;
+  text-align: center;
+  background-color: #efeff4;
+}
