@@ -1,0 +1,57 @@
+.content {
+  width: 100%;
+  position: absolute;
+  top: 44px;
+  bottom: 50px;
+  background-color: #f5f5f5;
+}
+.content > .content-left {
+  width: 80px;
+  height: 100%;
+  float: left;
+  position: relative;
+}
+.content > .content-left .mui-scroll-wrapper a {
+  display: block;
+  width: 80px;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+  color: #000;
+  border-right: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  background-color: #FFF;
+}
+.content > .content-left .mui-scroll-wrapper a.active {
+  background-color: #f5f5f5;
+  border-right: none;
+}
+.content > .content-right {
+  margin-left: 90px;
+  height: 100%;
+  position: relative;
+}
+.content > .content-right .mui-scroll-wrapper ul {
+  width: 100%;
+  margin-top: 10px;
+  background-color: #fff;
+}
+.content > .content-right .mui-scroll-wrapper ul .lost {
+  padding: 15px;
+  font-size: 20px;
+  color: #c9302c;
+}
+.content > .content-right .mui-scroll-wrapper ul li {
+  width: 33.33%;
+  float: left;
+}
+.content > .content-right .mui-scroll-wrapper ul li a {
+  display: block;
+  width: 100%;
+}
+.content > .content-right .mui-scroll-wrapper ul li a img {
+  width: 100%;
+}
+.content > .content-right .mui-scroll-wrapper ul li a p {
+  text-align: center;
+}
