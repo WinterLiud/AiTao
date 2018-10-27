@@ -2,6 +2,8 @@
  * Created by 冬哥 on 2018/10/23.
  */
 $(function(){
+
+
     $('#btn').on('click',function(){
         var keyword=$(this).siblings('input').val();
         if(keyword){
